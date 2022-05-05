@@ -1,0 +1,21 @@
+{
+    "name": "d10",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www",
+        "dev": "nodemon ./bin/www"
+    },
+    "dependencies": {
+        "cookie-parser": "~1.4.6",
+        "debug": "~4.3.4",
+        "express": "~4.18.1",
+        "express-graphql": "^0.12.0",
+        "graphql": "^15.8.0",
+        "graphql-tools": "^8.2.8",
+        "hbs": "~4.2.0",
+        "http-errors": "~2.0.0",
+        "mariadb": "^3.0.0",
+        "morgan": "~1.10.0"
+    }
+}

@@ -1,0 +1,30 @@
+
+type Query {
+    teacher(id:Int!):Teacher
+    teachers:[Teacher!]!
+    courses:[Course!]!
+    students:[Student!]!
+}
+
+type Teacher {
+    id:ID!
+    first:String
+    last:String
+    courses:[Course!]!
+}
+
+type Course {
+    id:ID!
+    name:String!
+    description:String
+    teacher:Teacher!
+    students:[Student!]!
+}
+
+type Student {
+    id:ID!
+    first:String
+    last:String
+    courses:[Course!]!
+}
+
